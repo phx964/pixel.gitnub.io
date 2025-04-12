@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pixel Art</title>
+	<style>
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #870e05;
+		}
+		.grid{
+			display: grid;
+			grid-template-columns: repeat(10, 20px);
+			grid-template-rows: repeat(10, 20px);
+			gap: 2px;
+			background-color: #030303;
+			padding: 10px;
+		}
+		.pixel{
+			width: 20px;
+			height: 20px;
+			background-color: white;
+		}
+		.green{background-color: green;}
+		.red{background-color: red;}
+		.brown{background-color: brown;}
+		.yellow{background-color: yellow;}
+		.blue{background-color: blue;}
+		.black{background-color: black;}
+		.orange{background-color: orange;}
+	</style>
+</head>
+<body>
+    <div class="grid">
+        <!-- 100 пикселей (10x10) -->
+        <div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div>
+        <div class="pixel"></div><div class="pixel red"></div><div class="pixel"></div><div class="pixel red"></div><div class="pixel"></div><div class="pixel blue"></div><div class="pixel "></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div>
+        <div class="pixel"></div><div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div><div class="pixel blue"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div>
+        <div class="pixel"></div><div class="pixel"></div><div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div><div class="pixel"></div><div class="pixel blue"></div><div class="pixel yellow"></div><div class="pixel black"></div><div class="pixel"></div>
+        <div class="pixel"></div><div class="pixel "></div><div class="pixel"></div><div class="pixel green"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel yellow"></div><div class="pixel yellow"></div><div class="pixel yellow"></div><div class="pixel"></div>
+        <div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel green"></div><div class="pixel green"></div><div class="pixel orange"></div><div class="pixel yellow"></div><div class="pixel yellow"></div><div class="pixel blue"></div><div class="pixel blue"></div>
+        <div class="pixel"></div><div class="pixel"></div><div class="pixel green"></div><div class="pixel green"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel orange"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel blue"></div>
+        <div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel green"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div>
+        <div class="pixel"></div><div class="pixel"></div><div class="brown"></div><div class="brown"></div><div class="brown"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div>
+        <div class="pixel"></div><div class="pixel"></div><div class="brown"></div><div class="brown"></div><div class="brown"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div><div class="pixel"></div>
+    </div>
+</body>
+</html>
